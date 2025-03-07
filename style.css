@@ -1,0 +1,210 @@
+/* 🔥 Fuente Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 🔹 Encabezado */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* 🔹 Logo */
+.logo {
+    height: 50px;
+}
+
+/* 🔹 Derecha (Avatar + Campana + Nombre de Usuario) */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+/* 🔹 Icono de Notificaciones */
+.icon {
+    height: 34px;
+    cursor: pointer;
+}
+
+/* 🔹 Avatar */
+.avatar {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+/* 🔹 Nombre de Usuario */
+.username {
+    font-size: 18px;
+    color: #333;
+}
+
+/* 🔹 Flecha de Menú */
+.dropdown-icon {
+    font-size: 16px;
+    color: #a12c98;
+    cursor: pointer;
+}
+
+/* 🔹 Contenido del Cuerpo */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* 🔹 Botón del Menú */
+.dropdown {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dropdown-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.dropdown-btn:hover {
+    background-color: #0056b3;
+}
+
+/* 🔹 Menú Desplegable */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 170px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+/* 🔹 Mostrar el menú cuando está activo */
+.show {
+    display: block;
+}
+
+/* 🔹 Contenedor de la Tabla */
+#table-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+/* 🔹 Tabla */
+table {
+    width: 80%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Encabezado de la Tabla (Texto Azul y Negrita) */
+th {
+    color: #007bff; /* 🔹 Letras azules */
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+}
+
+/* 🔹 Celdas de la Tabla */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 🔹 Hacer las celdas editables */
+td[contenteditable="true"] {
+    background-color: #fff;
+    outline: none;
+}
+
+/* 🔹 Estilo al pasar el mouse sobre las celdas */
+td:hover {
+    background-color: #e8f0fe;
+}
+/* 🔹 Agregar espacio antes del footer */
+footer {
+    margin-top: 40px; /* 🔹 Ajusta este valor según el espacio deseado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+/* 🔹 Agregar espacio antes del footer */
+footer {
+    margin-top: 40px; /* 🔹 Ajusta este valor según el espacio deseado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+/* 🔹 Ajustar el tamaño del logo en el footer */
+footer img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* 🔹 Estilos para el texto dentro del footer */
+footer p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
