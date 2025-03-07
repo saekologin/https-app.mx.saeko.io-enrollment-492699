@@ -8,31 +8,31 @@ const tablesData = {
     1: [
         ["Asignaturas", "P1", "F", "P2", "F", "EF", "F", "Final", "F"],
         ["SOCIEDADES MERCANTILES", "9.8", "", "", "", "", "", "", "0"],
-        ["DERECHO PROCESAL DEL TRABAJO", "10.0", "", "", "", "", "", "", "2"],
+        ["DERECHO PROCESAL DEL TRABAJO", "10.0", "", "", "", "", "", "", "0"],
         ["DERECHO PROCESAL PENAL", "9.5", "", "", "", "", "", "", "0"],
-        ["FILOSOFÍA DEL DERECHO", "9.9", "", "", "", "", "", "", "3"],
+        ["FILOSOFÍA DEL DERECHO", "9.9", "", "", "", "", "", "", "0"],
         ["SEGURIDAD SOCIAL", "10.0", "", "", "", "", "", "", "0"],
         ["NIVEL AVANZADO INGLÉS I", "9.7", "", "", "", "", "", "", "0"]
     ],
     2: [
         ["Asignaturas", "P1", "F", "P2", "F", "EF", "F", "Final", "F"],
-        ["HISTORIA DEL DERECHO MEXICANO", "10.0", "", "10.0", "", "9.8", "", "9.9", "2"],
+        ["HISTORIA DEL DERECHO MEXICANO", "10.0", "", "10.0", "", "9.8", "", "9.9", "0"],
         ["DERECHO COLECTIVO DEL TRABAJO", "9.7", "", "10.0", "", "9.5", "", "9.7", "0"],
         ["DELITO EN PARTICULAR", "10.0", "", "9.5", "", "9.9", "", "9.8", "1"],
         ["CONTRATOS CIVILES", "9.6", "", "10.0", "", "9.8", "", "9.8", "1"],
-        ["MECANISMOS ALTERNOS DE SOLUCIÓN Y CONTROVERSIA", "9.4", "", "9.6", "", "8.5", "", "9.1", "4"],
+        ["MECANISMOS ALTERNOS DE SOLUCIÓN Y CONTROVERSIA", "9.4", "", "9.6", "", "8.5", "", "9.1", "0"],
         ["NIVEL INTERMEDIO II INGLÉS", "9.8", "", "10.0", "", "9.9", "", "9.9", "2"]
 
     ],
     3: [
         ["Asignaturas", "P1", "F", "P2", "F", "EF", "F", "Final", "F"],
-        ["DERECHOS HUMANOS", "9.5", "", "9.0", "", "10.0", "", "9.5", "1"],
+        ["DERECHOS HUMANOS", "9.5", "", "9.0", "", "10.0", "", "9.5", "0"],
         ["DERECHO INDIVIDUAL DEL TRABAJO", "10.0", "", "9.9", "", "10.0", "", "9.9", "0"],
         ["DERECHO PENAL", "10.0", "", "9.2", "", "9.9", "", "9.7", "2"],
         ["OBLIGACIONES CIVILES", "9.7", "", "9.6", "", "10.0", "", "9.7", "6"],
         ["INTERPRETACIÓN Y ARGUMENTACIÓN JURÍDICA", "9.4", "", "9.8", "", "10.0", "", "9.7", "0"],
         ["DERECHO ECOLÓGICO", "9.8", "", "9.9", "", "10.0", "", "9.9", "0"],
-        ["NIVEL INTERMEDIO I INGLÉS", "10.0", "", "9.9", "", "10.0", "", "9.9", "2"]
+        ["NIVEL INTERMEDIO I INGLÉS", "10.0", "", "9.9", "", "10.0", "", "9.9", "1"]
     ],
     4: [
         ["Asignaturas", "P1", "F", "P2", "F", "EF", "F", "Final", "F"],
@@ -42,12 +42,12 @@ const tablesData = {
         ["DERECHO DE LOS BIENES Y SUCESIONES", "10", "", "9.0", "", "9.0", "", "9.5", "0"],
         ["DERECHO AGRARIO", "9.0", "", "10", "", "10", "", "10.0", "0"],
         ["TEORÍA GENERAL DEL PROCESO", "9.7", "", "9.6", "", "10.0", "", "9.7", "2"],
-        ["NIVEL BÁSICO 2 INGLÉS", "10", "", "10.0", "", "9.0", "", "10.0", "2"]
+        ["NIVEL BÁSICO 2 INGLÉS", "10", "", "10.0", "", "9.0", "", "10.0", "1"]
     ],
     5: [
         ["Asignaturas", "P1", "F", "P2", "F", "EF", "F", "Final", "F"],
         ["INTRODUCCIÓN AL DERECHO", "10.0", "", "10.0", "", "10.", "", "10.0", "0"],
-        ["DERECHO ROMANO", "9.4", "", "10", "", "10", "", "10.0", "2"],
+        ["DERECHO ROMANO", "9.4", "", "10", "", "10", "", "10.0", "0"],
         ["TEORÍA DEL ESTADO", "10", "", "10", "", "10", "", "10.0", "0"],
         ["PERSONAS Y FAMILIA", "9.0", "", "10", "", "9.0", "", "9.5", "0"],
         ["METODOLOGÍA DE LA INVESTIGACIÓN", "8.9", "", "9.8", "", "9.3", "", "9.8", "0"],
