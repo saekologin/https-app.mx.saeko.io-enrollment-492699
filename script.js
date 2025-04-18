@@ -7,12 +7,12 @@ function toggleMenu() {
 const tablesData = {
     1: [
         ["Asignaturas", "P1", "F", "P2", "F", "EF", "F", "Final", "F"],
-        ["SOCIEDADES MERCANTILES", "9.8", "", "", "", "", "", "", "0"],
-        ["DERECHO PROCESAL DEL TRABAJO", "10.0", "", "", "", "", "", "", "0"],
-        ["DERECHO PROCESAL PENAL", "9.5", "", "", "", "", "", "", "0"],
-        ["FILOSOFÍA DEL DERECHO", "9.9", "", "", "", "", "", "", "0"],
-        ["SEGURIDAD SOCIAL", "10.0", "", "", "", "", "", "", "0"],
-        ["NIVEL AVANZADO INGLÉS I", "9.7", "", "", "", "", "", "", "0"]
+        ["SOCIEDADES MERCANTILES", "9.8", "0", "9.6", "0", "9.7", "0", "9.7", "0"],
+        ["DERECHO PROCESAL DEL TRABAJO", "10.0", "1", "10.0", "0", "9.8", "0", "9.9", "1"],
+        ["DERECHO PROCESAL PENAL", "9.5", "0", "9.8", "0", "9.8", "0", "9.7", "0"],
+        ["FILOSOFÍA DEL DERECHO", "9.9", "0", "9.5", "0", "10.0", "0", "9.8", "0"],
+        ["SEGURIDAD SOCIAL", "10.0", "0", "9.6", "0", "9.7", "0", "9.8", "0"],
+        ["NIVEL AVANZADO INGLÉS I", "9.7", "3", "9.5", "2", "9.5", "0", "9.6", "5"]
     ],
     2: [
         ["Asignaturas", "P1", "F", "P2", "F", "EF", "F", "Final", "F"],
